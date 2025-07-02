@@ -1,1 +1,56 @@
-
+advanced:
+  conversation_memory: true
+  message_caching: true
+  multilingual_support: false
+  response_caching: false
+  sentiment_analysis: false
+  topic_detection: false
+  user_preferences: true
+ai:
+  content_filter: true
+  context_window: 20
+  groq_settings:
+    frequency_penalty: 0.0
+    max_tokens: 1024
+    presence_penalty: 0.0
+    top_p: 0.9
+  max_response_length: 2000
+  openai_settings:
+    frequency_penalty: 0.0
+    max_tokens: 1024
+    presence_penalty: 0.0
+    top_p: 0.9
+  profanity_filter: false
+  temperature: 0.7
+bot:
+  allow_dm: true
+  allow_gc: true
+  anti_age_ban: true
+  batch_messages: true
+  batch_wait_time: 8.0
+  conversation_timeout: 300
+  cooldown_duration: 60
+  disable_mentions: true
+  groq_model: llama-3.3-70b-versatile
+  help_command_enabled: true
+  hold_conversation: true
+  max_messages_per_minute: 10
+  openai_model: gpt-4o
+  owner_id: 1007652090925043753
+  prefix: '~'
+  realistic_typing: true
+  reply_ping: true
+  trigger: AI
+notifications:
+  error_notifications: true
+  error_webhook: ''
+  ratelimit_notifications: true
+  startup_notifications: false
+security:
+  adaptive_cooldowns: true
+  detailed_logging: true
+  error_tracking: true
+  message_variation: true
+  random_delays: true
+  smart_batching: true
+  typing_variation: true
