@@ -3,7 +3,7 @@ services:
     name: disbot-web
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python server.py"
+    startCommand: "python web_server.py"
     autoDeploy: true
     envVars:
       - key: DISCORD_TOKEN
